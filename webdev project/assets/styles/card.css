@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+  background: #080505;
+  border: 1px solid #044555;
+  border-radius: 14px;
+  overflow: hidden;
+  
+}
+
+.card-header img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-header h2 {
+  font-size: 20px;
+  padding: 14px 18px;
+  color: white;
+}
+
+.card-body {
+  padding: 0 18px;
+  color: white;
+}
+
+.card-footer {
+  padding: 14px 18px;
+}
+
+.card-header img:hover {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
